@@ -12,7 +12,6 @@ export default class Router extends Component {
 
 					<Switch>
 						<Route path="/search" component={CustomerSearch} />
-
 						<Route exact path="/" component={Login} />
 						<Redirect from="*" to="/" />
 					</Switch>

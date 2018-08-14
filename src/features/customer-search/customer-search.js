@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import {string, array, object} from 'prop-types';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import {ReButton, ReInputBox, ReItemList} from "../common";
 import * as cust_search_actions from './actions';
 import { bindActionCreators } from 'redux';
